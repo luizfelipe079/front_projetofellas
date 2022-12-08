@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Consulta</title>
+</head>
+<body>
+
+<nav>
+    <div class="logo"> <img src="images/name.png" width="200" height="70" class="margin-left-50" /> </div>
+
+    <div class="menu-btn">
+        <i class="fa fa-bars fa-2x" onclick="menuShow()"></i>
+    </div>
+
+    <ul>
+        <li> <a href="Home.html" class="active"> Inicio </a> </li>
+        <li> <a href="Login.html"> Login</a> </li>
+    </ul>
+</nav>
+<script src="main.js"></script>
+
+<!-- <p>Faça sua Consulta aqui.</p> -->
+
+<div class="form-style-5">
+
+    <form>
+
+        <fieldset>
+            <legend><span class="number">1</span>Tipo de Animal:</legend>
+
+            <label for="job"></label>
+            <select id="job" name="field4">
+                <optgroup>
+                    <option value="fishkeeping">Domestico</option>
+                    <option value="reading">Silvestre</option>
+                </optgroup>
+
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend><span class="number">2</span>O seu animal é de que porte? </legend>
+            <label for="job"></label>
+            <select id="job" name="field4">
+                <optgroup>
+                    <option value="fishkeeping">Pequeno</option>
+                    <option value="reading">Medio</option>
+                    <option value="reading">Grande</option>
+                </optgroup>
+
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend><span class="number">3</span>Qual é o tipo do Atendimento</legend>
+            <label for="job"></label>
+            <select id="job" name="field4">
+                <optgroup>
+                    <option value="fishkeeping">Tosagem</option>
+                    <option value="reading">Consulta</option>
+                    <option value="reading">Hotelaria</option>
+                </optgroup>
+            </select>
+        </fieldset>
+
+        <legend><span class="number">4</span>Data da consulta:</legend>
+        <label for="job"></label>
+        <input type="date" name="field1">
+
+        <input type="submit" value="Marcar" />
+    </form>
+</div>
+
+</div>
+</body>
+</html>
